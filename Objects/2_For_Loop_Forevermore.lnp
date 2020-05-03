@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\2_For_Loop_Forevermore.obj" 
+TO ".\Objects\2_For_Loop_Forevermore" 
+PRINT(".\Listings\2_For_Loop_Forevermore.m51") RAMSIZE(256) 

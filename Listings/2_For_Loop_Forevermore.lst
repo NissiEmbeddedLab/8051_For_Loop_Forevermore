@@ -1,0 +1,33 @@
+C51 COMPILER V9.60.0.0   2_FOR_LOOP_FOREVERMORE                                            05/02/2020 22:58:05 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE 2_FOR_LOOP_FOREVERMORE
+OBJECT MODULE PLACED IN .\Objects\2_For_Loop_Forevermore.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE 2_For_Loop_Forevermore.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRI
+                    -NT(.\Listings\2_For_Loop_Forevermore.lst) TABS(2) OBJECT(.\Objects\2_For_Loop_Forevermore.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void main(void)
+   3          {
+   4   1      for(;;)
+   5   1        {
+   6   2        P1 = 0x55;
+   7   2        P1 = 0xAA;
+   8   2      }
+   9   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      8    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
